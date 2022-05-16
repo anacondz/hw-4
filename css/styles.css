@@ -54,11 +54,11 @@ align-items: center;
 }
 .h-co {
     margin-right: 50px;
-    display: flex;
+    
 }
 .h-co:last-child {
 margin-right: 0;
-display: flex;
+
 }
 .list {
     padding: 0;
@@ -82,11 +82,9 @@ display: flex;
         color: #212121;
 }
 .sp1 {
-    box-sizing: border-box;
+    
         width: 170px;
         height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
         margin-right: 30px;
 }
 .sp1:last-child {
@@ -101,15 +99,18 @@ display: flex;
             height: 100%;
             justify-content: center;
             align-items: center;
+            border: 1px solid #AFB1B8;
+                border-radius: 4px;
     
 }
-.sp1:hover,
-.sp1:focus {
-    border-color: #2196F3;
+.client-link:hover ,
+.client-link:focus {
+border-color: #2196F3;
 }
 .client-link:hover .icon-sp2,
 .client-link:focus .icon-sp2 {
     fill: #2196F3;
+    
 }
   .spisok {
         display: flex;
@@ -152,15 +153,16 @@ margin-right: 50px;
 .studio:hover {
     color: #2196F3;
 }
+.is-active {
+color: #2196F3;
+}
 .header-portfolio {
-
-
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
-color: #212121;
+
 
 }
 .header-portfolio:focus,
@@ -188,6 +190,8 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #757575;
+display: flex;
+align-items: center;
 }
 
 .nav1:hover,
@@ -253,6 +257,8 @@ color: #212121;
     color: #F5F4FA;
     font-family: inherit;
     border: 0;
+        box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+            border-radius: 4px;
 }
 .pg {
 text-decoration: none;
@@ -269,8 +275,11 @@ text-decoration: none;
     margin-right: 30px;
     width: 370px;
     margin-bottom: 30px;
-  
-   
+}
+.cnt .item:hover,
+.cnt .item:hover {
+        border: 1px solid #EEEEEE;
+            box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
 .cnt .item:nth-child(3n) {
 margin-right: 0;
@@ -347,16 +356,18 @@ margin-right: 0;
         width: 100%;
         height: 100%;
         border-radius: 50%;
+        background-color: white;
 }
-.komand-a:hover , 
-.komanda-a:focus {
+.komand-a:hover, 
+.komand-a:focus {
     background-color: rgba(33, 150, 243, 1);
 }
+
 .icon-komanda {
     fill: #AFB1B8;;
 }
 .komand-a:hover .icon-komanda,
-.komanda-a:focus .icon-komanda {
+.komand-a:focus .icon-komanda {
     fill: #FFFFFF;
 }
 .name-pg {
